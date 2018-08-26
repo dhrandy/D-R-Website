@@ -1,0 +1,40 @@
+.jumbotron {
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 0px;
+}
+
+#above-nav {
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.display-3 {
+    color: white;
+    font-size: 30px;
+}
+
+.lead {
+    color: white;
+    background: rgba(0, 0, 0, 0.575);
+}
+
+.container .lead {
+    height: 100%;
+}
+
+.button-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#article-one {
+    background-color: #f4f4f4;
+}
