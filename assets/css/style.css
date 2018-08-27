@@ -1,3 +1,4 @@
+/* Header */
 .jumbotron {
     background-image: url(../imgs/bg.jpg);
     background-position: center center;
@@ -6,6 +7,34 @@
     position: relative;
     background-size: cover;
 }
+
+.display-3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button-center {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lead {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    ;
+    /* background: rgba(0, 0, 0, 0.575); */
+}
+
+/* Navigation */
 
 .title {
     text-transform: uppercase;
@@ -24,36 +53,6 @@
     margin-bottom: 60px;
 }
 
-.display-3 {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.lead {
-    color: white;
-    width: 100%;
-    font-size: 16px;
-    position: absolute;
-    top: 0;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
-    ;
-    /* background: rgba(0, 0, 0, 0.575); */
-}
-
-/* 
-.container .lead {
-    height: 100%;
-} */
-
-.button-center {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
 #article-one {
     background-color: #d6d6d6;
@@ -98,15 +97,8 @@ h6 {
 }
 
 
-footer {
-    font-size: 14px;
-    text-align: center;
-    color: white;
-    background-color: black;
-    height: 50px;
-    padding-top: 10px;
-}
 
+/* 3rd Article Cards */
 .card {
     width: 14rem;
 }
@@ -118,4 +110,36 @@ footer {
 .card-body {
     height: 125px;
     padding-bottom: 0;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .lead {
+        display: none;
+    }
+    .card {
+        width: 20rem;
+        margin-bottom: 20px;
+    }
+    
+    .card-img-top {
+        height: 190px;
+    }
+
+    .article-three {
+        text-align: center;
+    }
+
+    #above-nav {
+        text-align: center;
+    }
 }
