@@ -27,6 +27,8 @@
 .display-3 {
     color: white;
     font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .lead {
@@ -76,11 +78,25 @@ hr {
     margin-right: auto;
 }
 
+h4 {
+    text-transform: uppercase;
+}
+
 h6 {
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
 }
+
+#space{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#contact {
+    color: white;
+}
+
 
 footer {
     font-size: 14px;
