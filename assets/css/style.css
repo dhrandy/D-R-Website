@@ -18,7 +18,7 @@
 .button-center {
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .lead {
@@ -57,12 +57,24 @@
 #article-one {
     background-color: #d6d6d6;
     padding-top: 50px;
+    border-bottom: solid rgb(160, 160, 160);
+    border-width: 1px;
+}
+
+.bottom-container {
+    margin-bottom: 30px;
+}
+
+#article-two {
+    margin-top: 60px;
 }
 
 #article-three {
     background-color: #d6d6d6;
     padding-top: 50px;
     padding-bottom: 1px;
+    border-top: solid rgb(160, 160, 160);
+    border-width: 1px;
 }
 
 hr {
