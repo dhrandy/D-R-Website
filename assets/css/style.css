@@ -106,3 +106,16 @@ footer {
     height: 50px;
     padding-top: 10px;
 }
+
+.card {
+    width: 14rem;
+}
+
+.card-img-top {
+    height: 150px;
+}
+
+.card-body {
+    height: 125px;
+    padding-bottom: 0;
+}
