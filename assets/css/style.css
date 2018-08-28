@@ -3,7 +3,7 @@
 .jumbotron {
     background-image: url(../imgs/bg.jpg);
     background-position: center center;
-    height: 500px;
+    height: 700px;
     margin-bottom: 0px;
     position: relative;
     background-size: cover;
@@ -168,6 +168,9 @@ footer {
     .parallax {
         background-attachment: scroll;
     }
+    .jumbotron {
+        height: 400px;
+    }
 }
 
 /* Most Modern Smartphones */
@@ -195,6 +198,9 @@ footer {
     .parallax {
         background-attachment: scroll;
     }
+    .jumbotron {
+        height: 400px;
+    }
 }
 
 /* Ipad and most tablets */
@@ -212,5 +218,8 @@ footer {
     }
     .parallax {
         background-attachment: scroll;
+    }
+    .jumbotron{ 
+        height: 500px;
     }
 }
