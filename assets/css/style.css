@@ -3,7 +3,7 @@
 .jumbotron {
     background-image: url(../imgs/bg.jpg);
     background-position: center center;
-    height: 700px;
+    height: 65vh;
     margin-bottom: 0px;
     position: relative;
     background-size: cover;
