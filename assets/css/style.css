@@ -8,6 +8,7 @@
     position: relative;
     background-size: cover;
     background-attachment: fixed;
+    will-change: transform;
 }
 
 .display-3 {
