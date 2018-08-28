@@ -1,11 +1,13 @@
 /* Header */
+
 .jumbotron {
     background-image: url(../imgs/bg.jpg);
     background-position: center center;
-    height: 400px;
+    height: 500px;
     margin-bottom: 0px;
     position: relative;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .display-3 {
@@ -53,6 +55,15 @@
     margin-bottom: 60px;
 }
 
+/* .nav-link:hover {
+    color: rgba(0,0,0,.7);
+    border-bottom: 1px solid rgb(131, 131, 131);
+} */
+
+a.nav-link:hover {
+    color: rgb(82, 172, 245) !important;
+    text-decoration: none;
+}
 
 #article-one {
     background-color: #d6d6d6;
@@ -100,7 +111,7 @@ h6 {
     margin-top: 10px;
 }
 
-#space{
+#space {
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -109,9 +120,8 @@ h6 {
     color: white;
 }
 
-
-
 /* 3rd Article Cards */
+
 .card {
     width: 14rem;
 }
@@ -126,6 +136,7 @@ h6 {
 }
 
 /* Footer */
+
 footer {
     font-size: 14px;
     text-align: center;
@@ -135,6 +146,32 @@ footer {
     padding-top: 10px;
 }
 
+/* Small Phones */
+
+@media only screen and (max-width: 400px) {
+    .lead {
+        display: none;
+    }
+    .card {
+        width: 17rem;
+        margin-bottom: 20px;
+    }
+    .card-img-top {
+        height: 190px;
+    }
+    .card-body {
+        height: 100px;
+    }
+    .col {
+        max-width: unset;
+    }
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Most Modern Smartphones */
+
 @media only screen and (max-width: 600px) {
     .lead {
         display: none;
@@ -143,16 +180,37 @@ footer {
         width: 20rem;
         margin-bottom: 20px;
     }
-    
     .card-img-top {
         height: 190px;
     }
-
     .article-three {
         text-align: center;
     }
-
     #above-nav {
         text-align: center;
+    }
+    .col {
+        max-width: unset;
+    }
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Ipad and most tablets */
+
+@media only screen and (max-width: 768px) {
+    .card {
+        width: 20rem;
+        margin-bottom: 20px;
+    }
+    .card-img-top {
+        height: 190px;
+    }
+    .card-body {
+        height: 100px;
+    }
+    .parallax {
+        background-attachment: scroll;
     }
 }
